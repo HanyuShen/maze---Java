@@ -18,15 +18,11 @@ import java.nio.file.Paths;
 
 public class MazeApplication extends Application {
 	private Scene s;
-	//private Maze maze1=Maze.fromTxt("/Users/fangzhihao/Gitrepos/comp16412-coursework-2_j99445zf/resources/mazes/maze1.txt");
+	
 	private String name;
 	private String path;
 
-    /** visulise the main stage
-     *  @param stage: The main stage of the application
-     *  @author Zhihao Fang
-     *  @version 28th April 2021
-     */
+    
 	public void start(Stage stage) throws Exception{		
 		Visualisation v = new Visualisation();
 
